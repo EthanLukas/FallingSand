@@ -9,7 +9,7 @@ public class SandLab
         lab.run();
     }
 
-    //add constants for particle types here
+    //constants for particle types
     public static final int EMPTY = 0;
     public static final int METAL = 1;
     public static final int SAND = 2;
@@ -17,7 +17,6 @@ public class SandLab
     public static final int STEAM = 4;
     public static final int CHECKERBOARD = 5;
 
-    //do not add any more fields
     private int[][] grid;
     private SandDisplay display;
 
@@ -173,7 +172,6 @@ public class SandLab
         }
     }
 
-    //do not modify
     public void run()
     {
         while (true)
